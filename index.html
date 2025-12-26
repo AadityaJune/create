@@ -155,7 +155,31 @@ Kre8Art LLC was established in 2024 as a simple hobby to escape from life's dist
 
 
 </center>
+<form action="https://formspree.io/f/mnjqnbyp" method="POST">
+  <label>Name:</label>
+  <input type="text" name="name" placeholder="Name" required>
 
+  <label>Email:</label>
+  <input type="email" name="email" placeholder="Email" required>
+
+  <label>Phone Number:</label>
+  <input type="tel" name="phone" placeholder="Phone (optional)">
+
+  <label>Message:</label>
+  <textarea name="message" placeholder="Message" rows="5" required></textarea>
+
+  <label>What you want us to make for you:</label>
+  <select name="interest" required>
+      <option value="">Select a product</option>
+      <option value="Shirt Design">Shirt Design</option>
+      <option value="Socks">Socks</option>
+      <option value="Keychain">Keychain</option>
+      <option value="Car Wrap">Car Wrap</option>
+      <option value="Other">Other</option>
+  </select>
+
+  <button type="submit">Send</button>
+</form>
 <script>
 let index = 0;
 const slides = document.querySelectorAll(".slide");
